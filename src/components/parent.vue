@@ -7,17 +7,17 @@
         <input type="text" v-model="email" placeholder="email"><br><br>
         
         <div>
-            <label for="a1">Textile</label>
-            <input id="a1" type="checkbox" value="textile" v-model="empires">
+            <label for="a1">Org</label>
+            <input id="a1" type="checkbox" value="org" v-model="orgs">
             <label for="a2">Software House</label>
-            <input id="a2" type="checkbox" value="software" v-model="empires" >
+            <input id="a2" type="checkbox" value="software" v-model="orgs" >
         </div><br>
 
         <button type="submit">SUBMIT</button>
     </form>
 <hr><hr> -->
     <!-- <ChildElem head="CHILD VUE" 
-    :name="name" :email="email" :empire="empires" :submited="submit" /> -->
+    :name="name" :email="email" :org="orgs" :submited="submit" /> -->
 <hr>
 
 <ChildElem :childname="childname" />
@@ -35,7 +35,7 @@ export default {
         return{
             // name:null,
             // email:null,
-            // empires:[],
+            // orgs:[],
             // submit: false
             username:null
         }

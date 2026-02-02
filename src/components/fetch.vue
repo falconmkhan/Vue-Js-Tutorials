@@ -12,17 +12,17 @@
         </div><br>
         <div>
             <label for="">Company: </label>
-            <label for="c1">Hacking</label>
-            <input type="checkbox" id="c1" value="hack" v-model="cname">
+            <label for="c1">Designing</label>
+            <input type="checkbox" id="c1" value="designing" v-model="cname">
             <label for="c2">Development</label>
             <input type="checkbox" id="c2" value="dev" v-model="cname">
         </div><br>
         <div>
             <label for="">Teacher: </label>
-            <label for="s1">Mustajab</label>
-            <input type="radio" id="s1" v-model="tname" value="musa" name="teacher">
-            <label for="s2">Ghazali</label>
-            <input type="radio" id="s2" v-model="tname" value="ghazali" name="teacher">
+            <label for="s1">NO name1</label>
+            <input type="radio" id="s1" v-model="tname" value="name1" name="teacher">
+            <label for="s2">NO name2</label>
+            <input type="radio" id="s2" v-model="tname" value="name2" name="teacher">
         </div><br>
         <input type="submit" v-on:click="getdata()">
     </form>

@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>
       Wikipedia <br><br>
-      <a href="https://en.wikipedia.org/wiki/Al-Qaeda" target="_blank" rel="noopener">Al Qaida</a>.
+      <a href="https://en.wikipedia.org/wiki" target="_blank" rel="noopener"></a>.
     </p>
   </div>
 </template>

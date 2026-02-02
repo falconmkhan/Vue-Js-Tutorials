@@ -1,8 +1,7 @@
 <template>
     <h1>LOOPS IN VUE JS </h1>
  <div>
-
-    <h3>Musa is Behind these </h3>
+    
     <ol>
         <li v-for="items in companies" :key="items">{{ items}}</li>
     </ol>
@@ -29,10 +28,10 @@ export default {
     name:'LoopS',
     data(){
         return{
-            companies: ['textile' , 'softwarehouse' , 'cybercell' , 'resturant'],
+            companies: ['designing' , 'development' , 'security'],
             owner_info:[
-                {name:'Faiz Khan' , email:'faizkhan@gmail.com' , phone:'92 3158915290'},
-                {name:'Ebad Khan' , email:'ebadkhan@gmail.com' , phone:'92 3243625664'},
+                {name:'Faiz Khan' , email:'faizkhan@gmail.com' , phone:'029848928428'},
+                {name:'NO Name ' , email:'noname@gmail.com' , phone:'0279472497424'},
 
             ],
         }

@@ -6,7 +6,7 @@
     <!-- <div v-if="submited">
         {{ name }} <br>
         {{ email }} <br>
-        <h3>{{ empire }}</h3> <br>
+        <h3>{{ org }}</h3> <br>
     </div>
      -->
     <!-- <ol>
@@ -25,7 +25,7 @@ export default {
         // head:String,
         // name:String,
         // email:String,
-        // empire:Array,
+        // org:Array,
         // submited:Boolean,
         childname:Function
     },

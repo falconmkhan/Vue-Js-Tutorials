@@ -1,7 +1,7 @@
 <template>
     <h1>Methods With Parameters</h1>
 
-    <!-- <p>{{ s_data("mustajab khan") }}</p>
+    <!-- <p>{{ s_data("faiz khan") }}</p>
     <p>{{ m_data().name }}</p>
     <p>{{ m_data().email }}</p>
     <p>{{ m_data().pass }}</p> -->
@@ -30,8 +30,8 @@ export default {
         m_data(){
             return{
                 name:this.user_data,
-                email:'mustajab@gmail.com',
-                pass:'musakazmi'
+                email:'faiz@gmail.com',
+                pass:'faiz'
             }
         }
     }

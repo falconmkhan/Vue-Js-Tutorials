@@ -1,6 +1,6 @@
 <template>
     <h1>{{ head }}</h1>
-    <!-- {{ name('mustajabkhan') }} <br>
+    <!-- {{ name('faizkhan') }} <br>
     {{ name('faiz') }} <br>
     {{ name('musakazmi') }} <br>
      -->
